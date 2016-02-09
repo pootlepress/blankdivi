@@ -1,5 +1,5 @@
 /*
-Theme Name:  Divi Child
+Theme Name:  Divi Child with Header Banner Area
 Theme URI:   http://pootlepress.com
 Version:     1.0
 Description: Divi child theme.
@@ -7,3 +7,21 @@ Author:      PootlePress
 Author URI:  http://pootlepress.com
 Template:    Divi
 */
+
+#header-banner * {
+	text-align: center;
+}
+
+#header-banner .et_pb_widget {
+	width: 100%;
+}
+
+#header-banner:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#page-container {
+	position: relative;
+}
